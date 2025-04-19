@@ -46,8 +46,8 @@ importers:
         specifier: ^3.16.2
         version: 3.16.2(@parcel/watcher@2.5.1)(db0@0.3.1)(eslint@9.24.0(jiti@2.4.2))(ioredis@5.6.1)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.40.0)(terser@5.39.0)(typescript@5.8.3)(vite@6.2.6(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.1))(yaml@2.7.1)
       shadcn-nuxt:
-        specifier: 2.0.1
-        version: 2.0.1(magicast@0.3.5)
+        specifier: 2.1.0
+        version: 2.1.0(magicast@0.3.5)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -3252,8 +3252,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shadcn-nuxt@2.0.1:
-    resolution: {integrity: sha512-V/dGlCig45B+v+peC0iYm8lcqjnjcKgJA42lmxRujPDK7CSNIjMTnM8+dHY8pvsC8KE52gw7uStmu4TfebQ18w==}
+  shadcn-nuxt@2.1.0:
+    resolution: {integrity: sha512-Pm9gYOgyReVaj2SeBAvHCo6lcJ2J+bUFWOlCfa3ml8xJd54uHtige4wdG0kJifutabCIKPu6Y+Ik+l94VR3GXQ==}
 
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -7476,7 +7476,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shadcn-nuxt@2.0.1(magicast@0.3.5):
+  shadcn-nuxt@2.1.0(magicast@0.3.5):
     dependencies:
       '@nuxt/kit': 3.16.2(magicast@0.3.5)
       '@oxc-parser/wasm': 0.50.0

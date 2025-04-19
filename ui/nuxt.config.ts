@@ -1,4 +1,3 @@
-
 // import tailwindcss from '@tailwindcss/vite'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -8,9 +7,9 @@ const currentDir = dirname(fileURLToPath(import.meta.url))
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxt/eslint",
-    "@nuxt/icon",
-    // "shadcn-nuxt",
+    "@nuxt/eslint", // "shadcn-nuxt",
+    "@nuxt/icon", 
+    'shadcn-nuxt',
   ],
   css: [
     join(currentDir, './assets/css/tailwind.css'),
@@ -18,10 +17,10 @@ export default defineNuxtConfig({
   alias: {
     '~': currentDir,
   },
-  // shadcn: {
-  //   prefix: 'Ui',
-  //   componentDir: './components/ui'
-  // },
+  shadcn: {
+    prefix: 'Ui',
+    // componentDir: './components/ui'
+  },
   // tailwindcss: {
   //   cssPath: join(currentDir, './assets/css/tailwind.css'),
 
